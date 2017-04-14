@@ -45,7 +45,7 @@
             android:textSize="13sp"/>
 
         <ImageView
-            android:id="@+id/search_clear_content_iv"
+            android:id="@+id/iv_clear_content"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignEnd="@id/et_search_content"
@@ -55,22 +55,22 @@
             android:src="@mipmap/login_icon_edit_clear"
             android:visibility="gone"/>
 
-        <!--<TextView-->
-        <!--android:id="@+id/tv_search"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_alignParentEnd="true"-->
-        <!--android:layout_alignParentRight="true"-->
-        <!--android:layout_centerVertical="true"-->
-        <!--android:clickable="true"-->
-        <!--android:onClick="StartSearch"-->
-        <!--android:paddingBottom="14dp"-->
-        <!--android:paddingLeft="15dp"-->
-        <!--android:paddingRight="14dp"-->
-        <!--android:paddingTop="14dp"-->
-        <!--android:text="@string/search"-->
-        <!--android:textColor="@color/colorWhite"-->
-        <!--android:textSize="14sp"/>-->
+       <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:onClick="StartSearch"
+            android:paddingBottom="14dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="14dp"
+            android:paddingTop="14dp"
+            android:text="@string/search"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"/>
     </RelativeLayout>
 
     <FrameLayout
